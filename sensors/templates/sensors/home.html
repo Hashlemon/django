@@ -1,0 +1,8 @@
+{% extends "sensors/base.html" %}
+{% block content %}
+    {% for sensor in sensors %}
+    <h1>{{ sensor.sensor_id }}</h1>
+    <p>Temperature is {{ sensor.temperature }} C. Humidity is {{ sensor.humidity }} %</p>
+    <p>{{ sensor.date_time }}</p>
+    {% endfor %}
+{% endblock content %}
