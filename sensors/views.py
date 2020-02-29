@@ -50,3 +50,6 @@ def detail(request, sensor_id):
     except Sensor.DoesNotExist:
         raise Http404("Unplugged")
     return render(request, 'sensors/detail.html', {'data': data})
+
+def detail_index(request):
+    return render(request, 'sensors/detail_index.html', {'title': "Sensors' List"})
