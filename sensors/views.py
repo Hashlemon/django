@@ -1,5 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from .models import Sensor, Data
+from django.http import Http404
 
 sensors_data = [
     {
@@ -39,3 +41,12 @@ def home(request):
 def about(request):
     return render(request, 'sensors/about.html', {'title': 'About'})
 
+#def detail(request, sensor_id):
+#    return HttpResponse("You're looking at sensors %s." % sensor_id)
+
+def detail(request, sensor_id):
+    try:
+        data = Sensor.objects.get(pk=sensor_id)
+    except Sensor.DoesNotExist:
+        raise Http404("Unplugged")
+    return render(request, 'sensors/detail.html', {'data': data})
