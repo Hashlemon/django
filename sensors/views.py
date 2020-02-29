@@ -36,6 +36,7 @@ def home(request):
     context = {
         'sensors': sensors_data
     }
+
     return render(request, 'sensors/home.html', context)
 
 def about(request):
@@ -53,3 +54,7 @@ def detail(request, sensor_id):
 
 def detail_index(request):
     return render(request, 'sensors/detail_index.html', {'title': "Sensors' List"})
+
+def pinout(request):
+    return render(request, 'sensors/pinout.html', {'title': "Pinout"})
+
