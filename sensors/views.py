@@ -31,6 +31,8 @@ sensors_data = [
 
 ]
 
+def get_defaultcontext():
+    return {'test': '222'}
 
 def home(request):
     context = {
@@ -40,7 +42,7 @@ def home(request):
     return render(request, 'sensors/home.html', context)
 
 def about(request):
-    return render(request, 'sensors/about.html', {'title': 'About'})
+    return render(request, 'sensors/about.html', dict(**get_defaultcontext(), title='About'))
 
 #def detail(request, sensor_id):
 #    return HttpResponse("You're looking at sensors %s." % sensor_id)
@@ -50,7 +52,9 @@ def detail(request, sensor_id):
         data = Sensor.objects.get(pk=sensor_id)
     except Sensor.DoesNotExist:
         raise Http404("Unplugged")
-    return render(request, 'sensors/detail.html', {'data': data, 'test': '123'})
+    context = get_defaultcontext()
+    context.update({'data': data})
+    return render(request, 'sensors/detail.html', context)
 
 def detail_index(request):
     return render(request, 'sensors/detail_index.html', {'title': "Sensors' List", 'test': '123'})
@@ -58,3 +62,5 @@ def detail_index(request):
 def pinout(request):
     return render(request, 'sensors/pinout.html', {'title': "Pinout", 'test': '123'})
 
+def wiget(request):
+    return render(request, 'sensors/wiget.html', {'test': '222'})
