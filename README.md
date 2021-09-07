@@ -50,7 +50,7 @@ var Ball = function(ballType) {
 Education 
 ---------
 _SoloLearn Certificates:_
-![Image](https://github.com/Hashlemon/django/blob/master/Screenshot%20from%202021-09-07%2018-12-57.png)
+![Image](https://github.com/Hashlemon/django/blob/master/Screenshot%20from%202021-09-07%2018-13-02.png)
 
 
 English
