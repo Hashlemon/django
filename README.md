@@ -16,16 +16,23 @@ A cheerful person from Belarus. Ready to study and create cool stuff using the l
 
 List of competencies
 --------------------
+_Hard-skills_
 * HTML5 (4/5), PUG (1/5)
 * CSS3 (3/5), Bootstrap (2/5)
 * JS ES6 (2/5)
-* Linux Shell (3/5)
+* Linux Shell (3/5), SSH (3/5), GPG (3/5), FTP (4/5) and other deployment/server-side skills 
 * SQL (2/5)
 * Node.js (1/5)
 * NPM (3/5)
 * Webpack (1/5)
 * Python (Django), Nginx, Flask: (1/5)
 * Raspberry Pi (IoT) (3/5)
+
+_Soft-skills_
+* English 
+* Non-toxic person
+* Able to work with a team, respect others, free from any suppositions (s.e. gender, age, race)
+* Business logic in mind
 
 
 Code snippet
