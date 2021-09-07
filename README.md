@@ -21,11 +21,11 @@ _Hard-skills_
 * CSS3 (3/5), Bootstrap (2/5)
 * JS ES6 (2/5)
 * Linux Shell (3/5), SSH (3/5), GPG (3/5), FTP (4/5) and other deployment/server-side skills 
-* SQL (2/5)
+* SQL (2/5) 
 * Node.js (1/5)
 * NPM (3/5)
 * Webpack (1/5)
-* Python (Django), Nginx, Flask: (1/5)
+* Python 3 (Django), Nginx, Flask: (1/5)
 * Raspberry Pi (IoT) (3/5)
 
 _Soft-skills_
@@ -47,6 +47,10 @@ var Ball = function(ballType) {
 };
 ```
 
+Education 
+---------
+_SoloLearn Certificates:_
+![Image](https://drive.google.com/file/d/1vKiuEAjlLsSSWKBtmTpNPg7kIjH8HKCp/view?usp=sharing)
 English
 -------
 
