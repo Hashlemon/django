@@ -24,4 +24,10 @@ var Ball = function(ballType) {
   this.ballType == "super" ? this.ballType = "super" : this.ballType = "regular"
 };
 ```
+Education
+---------
+
+English
+-------
+
 
