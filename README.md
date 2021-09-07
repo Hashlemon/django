@@ -8,7 +8,7 @@ Contacts
 * [GitHub](https://github.com/Hashlemon)
 * E-mail: arseni.yahorchanka@gmail.com
 * Tel.: (+375-44)72-400-26
-* 
+
 
 Bio
 ---
@@ -25,6 +25,7 @@ List of competencies
 * NPM (3/5)
 * Webpack (1/5)
 * Python (Django), Nginx, Flask: (1/5)
+* Raspberry Pi (IoT) (3/5)
 
 
 Code snippet
