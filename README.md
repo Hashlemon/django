@@ -3,9 +3,9 @@ Arseni Yahorchanka
 
 Contacts  
 --------
-*[Telegram](https://t.me/hashlemon)
-*E-mail: arseni.yahorchanka@gmail.com)
-*Tel.: +375447240026
+* [Telegram](https://t.me/hashlemon)
+* E-mail: arseni.yahorchanka@gmail.com)
+* Tel.: +375447240026
 Bio
 ---
 
