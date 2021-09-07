@@ -4,15 +4,15 @@ Arseni Yahorchanka
 Contacts  
 --------
 
----
+
 Bio
 ---
 
----
+
 List of competencies
 --------------------
 
----
+
 Code snippet
 ------------
 Create a class `Ball`. Ball objects should accept one argument for "ball type" when instantiated.
@@ -24,4 +24,4 @@ var Ball = function(ballType) {
   this.ballType == "super" ? this.ballType = "super" : this.ballType = "regular"
 };
 ```
----
+
