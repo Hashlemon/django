@@ -51,6 +51,8 @@ Education
 ---------
 _SoloLearn Certificates:_
 ![Image](https://drive.google.com/file/d/1vKiuEAjlLsSSWKBtmTpNPg7kIjH8HKCp/view?usp=sharing)
+
+
 English
 -------
 
